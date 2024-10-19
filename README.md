@@ -1,2 +1,2 @@
 # ProjectLocationForwarderDistribuided-
-Padrão de projeto Location Forwarder sistema distribuído. 
+Padrão de projeto Location Forwarder de Sistemas Distribuídos. 
