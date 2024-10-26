@@ -73,7 +73,6 @@ Resposta do servidor: Objeto remoto na porta localhost:8081 processou a requisi�
 Finalizar
 Para encerrar o cliente, basta digitar sair.  
 
-
 ```bash
 
 
@@ -93,7 +92,7 @@ ProjectLocationForwarderDistribuided/
 └── README.md              # Documentação do projeto
 
 
-
+```bash
 
 
 
