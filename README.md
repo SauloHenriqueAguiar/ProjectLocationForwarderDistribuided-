@@ -69,3 +69,7 @@ Resposta do servidor: Objeto remoto na porta localhost:8081 processou a requisi�
 
 Finalizar
 Para encerrar o cliente, basta digitar sair.
+
+
+
+Estrutura do Projeto: ProjectLocationForwarderDistribuided/ │ ├── client/ │ └── client.go # Código do cliente │ ├── server/ │ └── server.go # Código do servidor principal │ ├── remote_objects/ │ └── remote_object.go # Código dos objetos remotos │ ├── forwarder.go # Módulo de forwarding └── README.md
