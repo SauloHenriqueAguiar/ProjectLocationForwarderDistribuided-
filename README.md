@@ -71,7 +71,7 @@ Digite a localização no formato latitude,longitude (ou 'sair' para encerrar): 
 Resposta do servidor: Objeto remoto na porta localhost:8081 processou a requisição: 11,22
 
 Finalizar
-Para encerrar o cliente, basta digitar sair.  ´´´ 
+Para encerrar o cliente, basta digitar sair.  bash ´´´ 
 
 
 Estrutura do Projeto:
