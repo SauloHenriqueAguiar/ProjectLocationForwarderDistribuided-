@@ -23,10 +23,10 @@ A arquitetura do projeto é composta por três componentes principais:
 - Múltiplas instâncias do objeto remoto rodando em diferentes portas (`8081`, `8082`, `8083`).
 
 ## Como Executar o Projeto
+```bash
 
 ### Passo 1: Clonar o Repositório
 
-```bash
 git clone https://github.com/SeuUsuario/ProjectLocationForwarderDistribuided.git
 cd ProjectLocationForwarderDistribuided
 
@@ -71,7 +71,7 @@ Digite a localização no formato latitude,longitude (ou 'sair' para encerrar): 
 Resposta do servidor: Objeto remoto na porta localhost:8081 processou a requisição: 11,22
 
 Finalizar
-Para encerrar o cliente, basta digitar sair.
+Para encerrar o cliente, basta digitar sair.  ```
 
 
 Estrutura do Projeto:
