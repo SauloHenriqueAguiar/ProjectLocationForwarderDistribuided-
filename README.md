@@ -22,6 +22,21 @@ A arquitetura do projeto é composta por três componentes principais:
 - Go instalado na máquina. Para instalar, siga as instruções em: https://golang.org/doc/install
 - Múltiplas instâncias do objeto remoto rodando em diferentes portas (`8081`, `8082`, `8083`).
 
+Estrutura do Projeto:
+ProjectLocationForwarderDistribuided/
+│
+├── client/
+│   └── client.go          # Código do cliente
+│
+├── server/
+│   └── server.go          # Código do servidor principal
+│
+├── remote_objects/
+│   └── remote_object.go   # Código dos objetos remotos
+│
+├── forwarder.go           # Módulo de forwarding
+└── README.md              # Documentação do projeto
+
 ## Como Executar o Projeto
 ```bash
 ### Passo 1: Clonar o Repositório
@@ -70,6 +85,3 @@ Resposta do servidor: Objeto remoto na porta localhost:8081 processou a requisi�
 Finalizar
 Para encerrar o cliente, basta digitar sair.
 
-
-
-Estrutura do Projeto: ProjectLocationForwarderDistribuided/ │ ├── client/ │ └── client.go # Código do cliente │ ├── server/ │ └── server.go # Código do servidor principal │ ├── remote_objects/ │ └── remote_object.go # Código dos objetos remotos │ ├── forwarder.go # Módulo de forwarding └── README.md
