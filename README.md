@@ -24,15 +24,13 @@ A arquitetura do projeto é composta por três componentes principais:
 
 ## Como Executar o Projeto
 ```bash
-
 ### Passo 1: Clonar o Repositório
 
 git clone https://github.com/SeuUsuario/ProjectLocationForwarderDistribuided.git
 cd ProjectLocationForwarderDistribuided
 
-
 ### Passo 2: Executar os Objetos Remotos
- Execute três instâncias do objeto remoto em diferentes portas (8081, 8082, 8083).
+Execute três instâncias do objeto remoto em diferentes portas (8081, 8082, 8083).
 
 # Instância 1 (porta 8081)
 go run remote_object.go :8081
@@ -42,7 +40,6 @@ go run remote_object.go :8082
 
 # Instância 3 (porta 8083)
 go run remote_object.go :8083
-
 
 ### Passo 3: Executar o Servidor Principal
 
@@ -63,7 +60,7 @@ Digite a localização no formato latitude,longitude (ou 'sair' para encerrar): 
 
 O cliente enviará essa requisição ao servidor principal, que encaminhará a mensagem a um dos objetos remotos. A resposta será exibida no terminal do cliente.
 
-Passo 5: Enviar Localizações
+### Passo 5: Enviar Localizações
 Digite diferentes localizações no terminal do cliente e observe o encaminhamento de requisições entre o servidor e os objetos remotos.
 
 Exemplo de execução:
@@ -71,31 +68,4 @@ Digite a localização no formato latitude,longitude (ou 'sair' para encerrar): 
 Resposta do servidor: Objeto remoto na porta localhost:8081 processou a requisição: 11,22
 
 Finalizar
-Para encerrar o cliente, basta digitar sair.  
-
-```bash
-
-
-Estrutura do Projeto:
-ProjectLocationForwarderDistribuided/
-│
-├── client/
-│   └── client.go          # Código do cliente
-│
-├── server/
-│   └── server.go          # Código do servidor principal
-│
-├── remote_objects/
-│   └── remote_object.go   # Código dos objetos remotos
-│
-├── forwarder.go           # Módulo de forwarding
-└── README.md              # Documentação do projeto
-
-
-```bash
-
-
-
-
-
-
+Para encerrar o cliente, basta digitar sair.
